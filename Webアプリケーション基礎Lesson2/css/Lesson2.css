@@ -1,0 +1,259 @@
+@charset "UTF-8";
+
+/*
+ * Title: watery-blue
+ * Comment: 淡い青系のデザイン
+ * Version: 1.0.0
+ * Author: MAS
+ * Access: http://www2u.biglobe.ne.jp/~MAS/
+ * License: CC BY(http://creativecommons.org/licenses/by/3.0/)
+ */
+
+a:link {
+  color:darksteelblue;
+}
+a:visited {
+  color: #003D6B;
+}
+a:active {
+  background-color: #BFE4FF;
+}
+a:hover {
+  background-color: #BFE4FF;
+}
+a.footnote {
+  text-decoration: none;
+}
+a.footnote:visited {
+  color: #003D6B;
+}
+a.footnote:hover {
+  background-color: #BFE4FF;
+}
+blockquote {
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #0066B3;
+  margin-left: 20px;
+  padding: 5px;
+}
+body {
+  background-color: #E6F4FF;
+  color: #003D6B;
+}
+div.center {
+  text-align: center;
+}
+div.footer {
+  text-align: right;
+}
+div.footnote {
+  border-style: solid;
+  border-width: 2px 0px 0px 0px;
+  border-color: #0066B3;
+  margin-top: 2em;
+  padding: 5px;
+}
+div.ascii-art{
+  font-size: 12pt;
+  line-height: 18px;
+  font-family: "Mona", "IPA MONAPGOTHIC", "MS PGothic", "ＭＳ Ｐゴシック", "MS Pｺﾞｼｯｸ", "MS Pゴシック", sans-serif;
+}
+div.left {
+  margin-left: 10px;
+  text-align: left;
+}
+div.right {
+  text-align: right;
+}
+dd {
+  margin-top: 2px;
+  margin-bottom: 4px;
+}
+dl {
+  margin-left: 10px;
+}
+dt {
+  border-style: dashed;
+  border-color: #0066B3;
+  border-width: 0px 0px 1px 0px;
+}
+h1 {
+  border-style: solid;
+  border-width: 1px 2px 2px 1px;
+  border-color: #003D6B;
+  padding: 4px;
+  background-color: #BFE4FF;
+  font-size: 150%;
+  font-weight: normal;
+  margin-bottom: 10px;
+  text-align: center;
+}
+h2 {
+  background-color: #BFE4FF;
+  background-image: url(images/24.png);
+  background-repeat:no-repeat;
+  background-position:4px 50%;
+  padding: 5px 0px 3px 35px;
+  font-size: 150%;
+  font-weight: normal;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+h3 {
+  background-color: #BFE4FF;
+  background-image: url(images/18.png);
+  background-repeat:no-repeat;
+  background-position:4px 50%;
+  padding: 5px 0px 3px 26px;
+  font-size: 100%;
+  font-weight: bold;
+}
+h4 {
+  background-color: #BFE4FF;
+  background-image: url(images/12.png);
+  background-repeat:no-repeat;
+  background-position:4px 50%;
+  padding: 5px 0px 3px 20px;
+  font-size: 90%;
+  font-weight: bold;
+}
+hr {
+  border-style: solid;
+  border-width: 1px 0px 1px 0px;
+  border-color: #0066B3;
+  color: #E6F4FF;
+  height: 3px;
+  padding: 0;
+}
+img {
+  border-style: none;
+}
+ol.list1 {
+  list-style-type: decimal;
+}
+ol.list2 {
+  list-style-type: lower-roman;
+}
+ol.list3 {
+  list-style-type: lower-alpha;
+}
+p {
+  margin-bottom: 0.7em;
+  margin-top: 0.7em;
+  margin-left: 10px;
+  text-indent: 1em;
+}
+body.p.hatena {
+  margin-bottom: 0.5%;
+  margin-top: 0.5%;
+  text-indent: 1em
+}
+pre {
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #0066B3;
+  margin-left: 10px;
+  padding: 5px;
+}
+span.footnote {
+  font-size: 75%;
+  vertical-align: super;
+}
+span.footnote_caption {
+  font-size: 80%;
+  margin-left: 0.25em;
+}
+span.marker {
+  background-color: #80C9FF;
+  font-weight: bold;
+}
+table {
+  margin: 10px;
+  border-collapse: collapse;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #0066B3;
+}
+td {
+  border-style: solid;
+  border-width: 1px;
+  padding: 3pt;
+  vertical-align: top;
+}
+td.center {
+  text-align: center;
+}
+td.right {
+  text-align: right;
+}
+th {
+  border-style: solid;
+  border-width: 1px;
+  padding: 3pt;
+  vertical-align: top;
+}
+ul.list1 {
+  list-style-type: disc;
+}
+ul.list2 {
+  list-style-type: circle;
+}
+ul.list3 {
+  list-style-type: square;
+}
+
+
+/* menubar */
+div.body {
+  position: relative;
+}
+
+div.main {
+  margin-left: 165px;
+  padding: 0px 0px 0px 5px;
+}
+
+div.menubar {
+  font-size: 90%;
+  position: absolute;
+  top: 0px;
+  width: 150px;
+  padding: 5px;
+  border-color: #0066B3;
+  border-style: solid;
+  border-width: 1px;
+}
+
+div.menubar ul {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+div.main2 {
+  width: 75%;
+  float: right;
+  padding: 5px;
+  border-color: #0066B3;
+  border-style: solid;
+  border-width: 1px;
+}
+
+div.menubar2 {
+  font-size: 90%;
+  width: 24%;
+  float: left;
+  padding: 5px;
+  border-color: #0066B3;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.center {
+  text-align: center;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
