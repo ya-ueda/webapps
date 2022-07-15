@@ -19,7 +19,7 @@
 		<h1>ログイン</h1>
 		<p></p>
 		<div class="center">
-			<font color="red">ログインされていません。ログインしてください。</font>
+			<font color="red">ログインされていません。ログインしてください。aaaaaaaaaa</font>
 		</div>
 		<table>
 			<tr>
