@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+    <servlet>
+        <servlet-name>pack</servlet-name>                 <!-- Servlet name -->
+        <servlet-class>pack.Servlet</servlet-class> <!-- Class name -->
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>pack</servlet-name>                 <!-- Servlet name -->
+        <url-pattern>/Servlet</url-pattern>                 <!-- URL pattern -->
+    </servlet-mapping>
+</web-app>
