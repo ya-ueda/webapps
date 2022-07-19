@@ -22,6 +22,7 @@
 					<option>千葉県</option>
 					<option>茨城県</option>
 					<option>愛媛県</option>
+					<option>徳島県</option>
 				</select>
 			</li>
 		</ul>
