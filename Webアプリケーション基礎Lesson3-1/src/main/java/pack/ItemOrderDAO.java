@@ -38,9 +38,9 @@ public class ItemOrderDAO {
 		//-----------------
 		// 接続
 		//-----------------
-		connection = DriverManager.getConnection("jdbc:postgresql://10.0.2.15:5432/postgres", // "jdbc:postgresql://[場所(Domain)]:[ポート番号]/[DB名]"
+		connection = DriverManager.getConnection("jdbc:postgresql://webapp3-ueda.cncasnoxwaem.ap-northeast-1.rds.amazonaws.com:5432/postgres", // "jdbc:postgresql://[場所(Domain)]:[ポート番号]/[DB名]"
 				"postgres", // ログインロール
-				""); // パスワード
+				"postgres"); // パスワード
 
 		statement = connection.createStatement();
 
